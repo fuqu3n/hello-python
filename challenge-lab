@@ -1,0 +1,18 @@
+# Create list of choice
+# Compare 2 numbers
+number1 = input("Please enter first number: ")
+while(type(number1) != str):
+  number1 = input("Please enter a numeric value: ")
+
+number2 = input('Please enter second number: ')
+
+while(type(number2) != str):
+  number2 = input("Please enter a numeric value: ")
+
+
+if(number1 == number2):
+  print("Both numbers are equal")
+elif (number1 > number2):
+  print("The first number is greater")
+else: 
+  print ("The second number is greater")
